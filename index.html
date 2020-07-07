@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Championship - Register</title>
+    <link href="style/main.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="https://c8.alamy.com/comp/E0GXX8/wimbledon-the-championships-icon-logo-E0GXX8.jpg">
+</head>
+<script>
+    // function changeThemeToLight() {
+    //     document.getElementsById("themeChange").classList.remove('dark');
+    //     document.getElementsById("themeChange").classList.add('light');
+    // }
+
+    function changeThemeToLight() {
+        var element = document.getElementById("themeChange");
+        element.classList.add("light");
+        element.classList.remove("dark");
+    }
+    function changeThemeToDark() {
+        var element = document.getElementById("themeChange");
+        element.classList.add("dark");
+        element.classList.remove("light");
+    }
+   
+//    ----------------------------------------
+    // function changeThemeToDark() {
+    //     document.getElementsById("themeChange").classList.remove('light');
+    //     document.getElementsById("themeChange").classList.add('dark');
+    // }
+</script>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="About">About</a></li>
+                <li><a href="#" title="Chupa el perro">More</a></li>
+            </ul>
+        </nav>
+        <h1 class="artistName artistNameLarge">Wimbledon - 28 JUNE TO 11 JULY 2021</h1>
+    </header>
+<div class="container" id="themeChange">
+    <div>
+        <button onclick="changeThemeToDark()" class="btn button-dark">Dark</button>
+        <button onclick="changeThemeToLight()" class="btn button-light">Light</button>
+    </div>
+    <section>
+        <h1>Your chance to get a ticket!</h1>
+        <aside class='register-aside'>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quam, tempore necessitatibus quis dolor veniam voluptates. Laborum recusandae laudantium sint esse tenetur. Aperiam, non magni corrupti veritatis expedita magnam obcaecati maiores labore quo quasi accusantium doloribus incidunt sapiente eaque minima fugiat blanditiis modi. Officiis, dolores!</p> 
+        </aside>
+
+        <form action="#" method="" class="register-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Name" id="name">
+
+            <label for="label2">Surname:</label>
+            <input type="text" name="surname" placeholder="Surname" id="label2">
+
+            <label for="mail">e-mail:</label>
+            <input type="email" name="mail" placeholder="id@wimbledon.io" id="mail">
+
+            <label for="phone">Phone Nr</label>
+            <input type="tel" name="phone" placeholder="+00 4444-444444" id="phone">
+
+            <input type="submit" value="SEND" class="send">
+        </form>
+    </section>
+</div>
+</body>
+</html>

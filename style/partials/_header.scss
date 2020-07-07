@@ -1,0 +1,44 @@
+
+@import '../variables/colors';
+@import '../variables/mixings';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    background-image: url(/1erModulo/7mo_evento/images/b_venuskvitova278506.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+    .artistName {
+        color: rgba(255, 255, 255, 0.904);
+        text-align: center;
+        padding-top: 2em;
+        font-family: $special-font;
+        font-weight: normal;
+    }
+    .main-nav {
+        font-size: 2em;
+        text-align: center;
+        
+        border-bottom: 1px solid white;
+        li {
+            display: inline-block;
+        }
+            a {
+                padding: 1.5em;
+                font-family: $main-font;
+                font-weight: 600;
+                display: inline-block;
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.904);
+                &:hover {
+                    background-color: rgba(255, 255, 255, .3);
+                }
+        }
+    }
+}
+

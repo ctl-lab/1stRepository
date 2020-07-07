@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Raleway&display=swap");
+/*imported them @import instead
+here's how to call them:
+font-family: 'MuseoModerno', cursive;
+font-family: 'Raleway', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Raleway&display=swap");
+.container .button-light {
+  background-color: white;
+  color: #0007;
+}
+
+.light {
+  background-color: white;
+}
+
+.light h1 {
+  color: #0007;
+}
+
+.light aside, .light form {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.911);
+}
+
+.dark h1 {
+  color: white;
+}
+
+.dark aside, .dark form {
+  -webkit-box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.dark input {
+  background-color: rgba(0, 0, 0, 0.911);
+  color: white;
+}
+
+.dark .send {
+  background-color: white;
+  color: #0007;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-header {
+  background-image: url(/1erModulo/7mo_evento/images/b_venuskvitova278506.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.main-header .artistName {
+  color: rgba(255, 255, 255, 0.904);
+  text-align: center;
+  padding-top: 2em;
+  font-family: "MuseoModerno", cursive;
+  font-weight: normal;
+}
+
+.main-header .main-nav {
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.main-header .main-nav li {
+  display: inline-block;
+}
+
+.main-header .main-nav a {
+  padding: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.main-header .main-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*imported them @import instead
+here's how to call them:
+font-family: 'MuseoModerno', cursive;
+font-family: 'Raleway', sans-serif;*/
+.send, .btn {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.911);
+  color: white;
+}
+
+.send:active, .btn:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.send:hover, .btn:hover {
+  opacity: .8;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+section {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  padding: 5% 0 5%;
+}
+
+section h1 {
+  width: 310px;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+section aside {
+  max-width: 300px;
+  height: 350px;
+  margin-left: 4%;
+  float: left;
+  padding: 2em;
+  background-image: url(https://2019.wimbledon.com/images/pics/large/b_henmanbg.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  border-radius: 10px;
+}
+
+section aside p {
+  color: white;
+}
+
+section form {
+  display: inline-block;
+  max-width: 300px;
+  padding: 1%;
+  right: 0;
+  margin-left: 4%;
+  border-radius: 10px;
+}
+
+section form label {
+  display: block;
+  font-weight: 600;
+}
+
+section form input {
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+  min-width: 200px;
+  margin: 10px;
+  margin-top: 4px;
+  min-width: 250px;
+}
+/*# sourceMappingURL=main.css.map */

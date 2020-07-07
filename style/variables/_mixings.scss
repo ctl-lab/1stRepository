@@ -1,0 +1,39 @@
+@mixin theme($shadow,$font-color,$bg-color){
+    background-color: $bg-color;
+    h1 {
+        color: $font-color;
+    }
+    aside, form {
+        box-shadow: $shadow;
+    }
+}
+
+@mixin button ($bg-color, $font-color) {
+    background-color: $bg-color;
+    color: $font-color;
+}
+
+.container .button-light{
+    @include button($bg-color-light, $font-color-light)
+}
+
+.light {
+    @include theme($shadow-light, $font-color-light, $bg-color-light)
+}
+
+.dark {
+    @include theme($shadow-dark, $font-color-dark, $bg-color-dark)
+
+    input {
+        background-color: $bg-color-dark;
+        color: $font-color-dark;
+    }
+
+    .send {
+        background-color: $bg-color-light;
+        color: $font-color-light;
+    }
+
+
+}
+
