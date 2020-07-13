@@ -8,7 +8,7 @@
 }
 
 .main-header {
-    background-image: url(/1erModulo/7mo_evento/images/b_venuskvitova278506.jpg);
+    background-image: url(../images/b_venuskvitova278506.jpg);
     background-size: cover;
     background-color: rgba(0, 0, 0, .4);
     background-blend-mode: multiply;
@@ -21,12 +21,14 @@
         font-weight: normal;
     }
     .main-nav {
-        font-size: 2em;
+        font-size: 1em;
         text-align: center;
+
         
         border-bottom: 1px solid white;
         li {
             display: inline-block;
+
         }
             a {
                 padding: 1.5em;
@@ -36,6 +38,9 @@
                 text-decoration: none;
                 color: rgba(255, 255, 255, 0.904);
                 &:hover {
+                    background-color: rgba(255, 255, 255, .3);
+                }
+                &:active {
                     background-color: rgba(255, 255, 255, .3);
                 }
         }
